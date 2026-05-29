@@ -1,37 +1,48 @@
 {
-  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
-  "name": "platforms-starter-kit",
+  "$schema": "https://www.schemastore.org/schemas/json/claude-code-marketplace.json",
+  "name": "genesis-conductor-platforms-starter-kit",
   "owner": {
-    "name": "Genesis Conductor Engine (Igor Holt @invariantx)",
-    "url": "https://github.com/Genesis-Conductor-Engine"
+    "name": "Igor Holt (@invariantx)",
+    "email": "iholt@mymail.aacc.edu",
+    "url": "https://github.com/igor-holt"
   },
-  "description": "Starter kit and scaffolding for platforms within the Genesis Conductor Engine ecosystem. Foundational template assets for rapid deployment of agentic and self-hosted AI infrastructure components by @invariantx.",
+  "description": "platforms-starter-kit: Production-ready Next.js 15 multi-tenant scaffolding for Genesis Conductor ecosystem platforms by Igor Holt (@invariantx). Features custom subdomain routing via middleware, tenant-specific content/pages, shared components/layouts, Upstash Redis storage (subdomain:key pattern), admin interface, emoji branding, Vercel/Cloudflare compatibility. Built with Next.js 15 App Router, React 19, Tailwind 4, shadcn/ui. Ideal for launching tenant-isolated Genesis Conductor services, LidLift dashboards, agent portals, and multi-org deployments. Part of the full Genesis Conductor stack (Yennefer, Diamond-V, vivarium A2A, Pareto optimization, seismic verification) with OpenClaw skills ties for agentic multi-tenant orchestration.",
   "version": "1.0.0",
   "homepage": "https://github.com/Genesis-Conductor-Engine/platforms-starter-kit",
   "keywords": [
+    "platforms-starter-kit",
     "genesis-conductor",
+    "igor-holt",
     "invariantx",
-    "starter-kit",
-    "platforms",
-    "self-hosted-ai",
-    "agentic-infrastructure",
-    "openclaw-ecosystem"
+    "multi-tenant",
+    "nextjs-15",
+    "subdomain-routing",
+    "shadcn-ui",
+    "upstash-redis",
+    "scaffolding",
+    "vercel",
+    "cloudflare",
+    "tenant-isolation",
+    "agent-platforms",
+    "openclaw"
   ],
   "plugins": [
     {
-      "name": "platforms-starter-kit",
+      "name": "multi-tenant-scaffolding",
       "source": "https://github.com/Genesis-Conductor-Engine/platforms-starter-kit",
-      "description": "Platforms starter kit for Genesis Conductor deployments. Provides scaffolding templates to accelerate building production agentic systems that compose with the core OpenClaw skills (grok-persistent-state, mcp-openclaw-bridge, smithery-mcp-orchestrator) from the primary marketplace by @invariantx.",
+      "description": "Next.js 15 multi-tenant starter kit for Genesis Conductor platforms. Subdomain middleware, Redis-backed tenants, admin UI, shared layouts. Ready for deploying Yennefer portals, Pareto skills, Diamond-V dashboards, vivarium sandboxes, and other @invariantx Genesis Conductor services in isolated tenant environments. Production scaffolding with SEO-friendly architecture.",
       "version": "1.0.0",
-      "tags": ["starter-kit", "platforms", "genesis-conductor"],
-      "category": "infrastructure",
+      "tags": ["multi-tenant", "scaffolding", "nextjs", "genesis-conductor"],
+      "category": "scaffolding",
       "homepage": "https://github.com/Genesis-Conductor-Engine/platforms-starter-kit",
-      "keywords": ["genesis conductor platforms starter", "agentic scaffolding", "self-hosted ai templates"]
+      "keywords": ["nextjs multi tenant starter", "subdomain middleware genesis conductor", "platforms scaffolding igor holt"]
     }
   ],
   "links": {
+    "x": "https://x.com/invariantx",
+    "website": "https://genesisconductor.io",
+    "demo": "https://platforms-starter-kit-sandy-nine-18.vercel.app",
     "github": "https://github.com/Genesis-Conductor-Engine/platforms-starter-kit",
-    "main-marketplace": "https://github.com/igor-holt/openclaw-skills",
-    "x": "https://x.com/invariantx"
+    "openclaw-skills-marketplace": "https://github.com/igor-holt/openclaw-skills"
   }
 }
