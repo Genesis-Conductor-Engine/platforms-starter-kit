@@ -1,0 +1,37 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "platforms-starter-kit",
+  "owner": {
+    "name": "Genesis Conductor Engine (Igor Holt @invariantx)",
+    "url": "https://github.com/Genesis-Conductor-Engine"
+  },
+  "description": "Starter kit and scaffolding for platforms within the Genesis Conductor Engine ecosystem. Foundational template assets for rapid deployment of agentic and self-hosted AI infrastructure components by @invariantx.",
+  "version": "1.0.0",
+  "homepage": "https://github.com/Genesis-Conductor-Engine/platforms-starter-kit",
+  "keywords": [
+    "genesis-conductor",
+    "invariantx",
+    "starter-kit",
+    "platforms",
+    "self-hosted-ai",
+    "agentic-infrastructure",
+    "openclaw-ecosystem"
+  ],
+  "plugins": [
+    {
+      "name": "platforms-starter-kit",
+      "source": "https://github.com/Genesis-Conductor-Engine/platforms-starter-kit",
+      "description": "Platforms starter kit for Genesis Conductor deployments. Provides scaffolding templates to accelerate building production agentic systems that compose with the core OpenClaw skills (grok-persistent-state, mcp-openclaw-bridge, smithery-mcp-orchestrator) from the primary marketplace by @invariantx.",
+      "version": "1.0.0",
+      "tags": ["starter-kit", "platforms", "genesis-conductor"],
+      "category": "infrastructure",
+      "homepage": "https://github.com/Genesis-Conductor-Engine/platforms-starter-kit",
+      "keywords": ["genesis conductor platforms starter", "agentic scaffolding", "self-hosted ai templates"]
+    }
+  ],
+  "links": {
+    "github": "https://github.com/Genesis-Conductor-Engine/platforms-starter-kit",
+    "main-marketplace": "https://github.com/igor-holt/openclaw-skills",
+    "x": "https://x.com/invariantx"
+  }
+}
